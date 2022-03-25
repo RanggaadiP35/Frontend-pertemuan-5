@@ -1,0 +1,88 @@
+/* Small Screen */
+.container {
+    margin: 1rem;
+  }
+  
+  .addmovie {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .addmovie__rigth {
+    margin-bottom: 1rem;
+  }
+  
+  .addmovie__judul {
+    color: #4361ee;
+    margin-bottom: 1rem;
+    font-size: 2.44rem;
+  }
+  
+  .addmovie__title {
+    color: #64748b;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  
+  .addmovie__year {
+    color: #64748b;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+
+  .addmovie__type{
+    border: 1px;
+    border-color: #4361ee;
+    border-radius: 5px;
+  }
+  
+  .addmovie__button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #4361ee;
+    color: #fff;
+    width: 175px;
+    height: 25px;
+  }
+  
+  .addmovie__image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
+  }
+  
+  /* Medium Screen */
+  @media (min-width: 768px) {
+    /*
+     * Nothing TODO Here.
+     * We dont change style Hero. 
+     */
+  }
+  
+  /* Large Screen */
+  @media (min-width: 992px) {
+    .container {
+      max-width: 1200px;
+      margin: 3rem auto;
+    }
+  
+    .addmovie {
+      margin: 0 1rem;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      text-align: left;
+    }
+  
+    .addmovie__left {
+      flex-basis: 60%;
+    }
+  
+    .addmovie__right {
+      flex-basis: 40%;
+    }
+  }
+  
+  
